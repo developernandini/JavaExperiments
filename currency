@@ -1,0 +1,39 @@
+public class currency{
+  public static void main(String args[])
+  int total=1000;
+   void countcurrency(int amount){
+    int n_2000=5;
+    int n_500=0;
+    int n_200=0;
+    int n_100=0;
+    int n_50=0;
+
+    for (int i = 0; i < 5; i++) {
+      if (amount >= notes[i]) {
+          noteCounter[i] = amount / notes[i]
+           amount=amount%notes[i];
+
+     System.out.print("Currency count")
+     if (amount >= notes[i]) {
+      for (int i = 0; i < 5; i++) {
+        if (noteCounter[i] != 0) {
+            System.out.println(notes[i] 
+                + noteCounter[i]);
+        }
+    }
+}
+
+public static void main(String argc[]){
+    int amount = 1500;
+    countCurrency(amount);
+}
+ 
+}
+
+   }
+   
+    
+
+        
+    
+}
